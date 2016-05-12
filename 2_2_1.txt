@@ -1,0 +1,9 @@
+a=int(input())
+while a>0:
+    if a > 100:
+        break
+    elif 10<=a<=100:
+        print (a)
+        a=int(input())
+    elif a < 10:
+        a=int(input())
